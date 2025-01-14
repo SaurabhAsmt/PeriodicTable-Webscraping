@@ -23,7 +23,7 @@ class GroupedElmsPipeline:
         self.elems[cg]['elements'].append(dict(item_copy))
         self.elems[cg]['element_count'] += 1
 
-        return item
+        return item # returning item so it can be sent to next pipeline for processing
 
     def close_spider(self, spider):
         with open("grouped_elms.json", "w") as file:
