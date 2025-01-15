@@ -2,7 +2,7 @@ import sqlite3
 from itemadapter import ItemAdapter
 import copy
 import json
-import logging
+import logging #for debugging
 
 class GroupedElmsPipeline:
     def __init__(self):
