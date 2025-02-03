@@ -5,7 +5,7 @@ from ..items import PeriodicTbItem
 from scrapy.loader import ItemLoader
 class PeriodicElmsSpider(scrapy.Spider):
     name = "periodic_elms"
-    allowed_domains = ["nih.gov"]
+    allowed_domains = ["nih.gov"] #can be any domain
     start_urls = ["https://pubchem.ncbi.nlm.nih.gov/ptable/"]
 
     def start_requests(self) -> Iterable[Request]:
