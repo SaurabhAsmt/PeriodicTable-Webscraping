@@ -33,7 +33,7 @@ class GroupedElmsPipeline:
 
 class PeriodicTbPipeline:
     def __init__(self):
-        self.conn = sqlite3.connect("periodicelms.db")
+        self.conn = sqlite3.connect("periodic_elms.db")
         self.cursor = self.conn.cursor()
 
     def open_spider(self, spider):
