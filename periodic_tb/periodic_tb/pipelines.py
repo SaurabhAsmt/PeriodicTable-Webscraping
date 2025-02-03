@@ -3,7 +3,7 @@ from itemadapter import ItemAdapter
 import copy
 import json
 import logging #for debugging purpose only
-
+#pipelines
 class GroupedElmsPipeline:
     def __init__(self):
         self.elems = {}

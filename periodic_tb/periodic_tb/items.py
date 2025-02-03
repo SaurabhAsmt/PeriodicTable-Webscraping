@@ -2,7 +2,7 @@ import scrapy
 from itemloaders.processors import TakeFirst, MapCompose
 from w3lib.html import remove_tags
 
-
+#configuration
 
 class PeriodicTbItem(scrapy.Item):
     # define the fields for your item here like:
