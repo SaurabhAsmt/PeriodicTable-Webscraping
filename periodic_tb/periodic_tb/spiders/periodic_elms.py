@@ -1,7 +1,7 @@
 from typing import Iterable
 import scrapy
 from scrapy import Request
-from ..items import PeriodicTbItem
+from periodic_tb.periodic_tb.items import PeriodicTbItem
 from scrapy.loader import ItemLoader
 class PeriodicElmsSpider(scrapy.Spider):
     name = "periodic_elms"
